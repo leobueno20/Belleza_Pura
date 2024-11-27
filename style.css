@@ -13,10 +13,13 @@ header {
     align-items: center;
 
 }
-header .titulo{
+
+header .titulo {
     font-size: 1.5rem;
-    background: linear-gradient(to right, #9f5e28, #ffdb69); /* Degradê aplicado */
-      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #9f5e28, #ffdb69);
+    /* Degradê aplicado */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header nav a {
@@ -30,6 +33,7 @@ header nav a {
 header img {
     width: 120px;
 }
+
 .texto-sobre {
     padding: 50px 80px;
     text-align: center;
@@ -37,6 +41,7 @@ header img {
     font-family: 'Courier New', Courier, monospace;
     font-size: 21px;
 }
+
 .hero {
     color: #ffffff;
     text-align: center;
@@ -107,7 +112,7 @@ header img {
     margin-bottom: 10px;
     border: none;
     cursor: pointer;
-    
+
 }
 
 .produtos-itens button:hover {
@@ -184,7 +189,7 @@ footer {
 
 
 @media (max-width: 480px) {
-    
+
     header nav {
         flex-direction: column;
     }
@@ -196,7 +201,8 @@ footer {
     .produtos {
         grid-template-columns: 1fr;
     }
-    .texto-sobre{
+
+    .texto-sobre {
         font-size: 13px;
         padding: 7px 45px;
     }

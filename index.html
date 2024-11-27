@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +19,9 @@
             <h1>Belezza Pura</h1>
         </section>
         <nav>
-            <a href="produtos">Produtos</a>
-            <a href="sobre">Sobre</a>
-            <a href="contato">Contato</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
@@ -30,23 +31,26 @@
         <button>Explore Agora</button>
     </main>
 
-    <section class="texto-sobre">
-        <h2>Sobre a <div style="color: #86a94c; font-size: 40px;">Belleza Pura</div></h2>
+    <section id="sobre" class="texto-sobre">
+        <h2>Sobre a <div style="color: #86a94c; font-size: 40px;">Belleza Pura</div>
+        </h2>
         <p>A Belleza Pura é uma marca dedicada a oferecer cosméticos 100% veganos e sustentáveis. Nossa missão é
             promover beleza e bem-estar enquanto respeitamos o meio ambiente. Todos os nossos produtos são livres de
             crueldade animal e embalados em materiais recicláveis. Acreditamos em um mundo mais consciente e saudável
             para todos.</p>
         <p>
-            Trabalhamos para redefinir o conceito de autocuidado, priorizando ingredientes naturais e processos éticos que garantam 
-            eficácia sem comprometer os recursos do planeta. Além disso, nos preocupamos com a inclusão e a diversidade, oferecendo 
+            Trabalhamos para redefinir o conceito de autocuidado, priorizando ingredientes naturais e processos éticos
+            que garantam
+            eficácia sem comprometer os recursos do planeta. Além disso, nos preocupamos com a inclusão e a diversidade,
+            oferecendo
             produtos que atendem a diferentes tipos de pele e cabelo, sempre com foco em qualidade e inovação.
         </p>
         <p>
-            Nosso compromisso vai além dos produtos: promovemos ações educacionais e parcerias com ONGs ambientais, 
+            Nosso compromisso vai além dos produtos: promovemos ações educacionais e parcerias com ONGs ambientais,
             incentivando práticas de consumo responsável e ajudando a construir uma sociedade mais sustentável.
         </p>
     </section>
-    <section class="produtos">
+    <section id="produtos" class="produtos">
         <div class="produtos-itens">
             <img src="assets/hidr.png" alt="Creme Hidratante Vegano">
             <h3>Creme Hidratante Vegano</h3>
@@ -111,18 +115,20 @@
             <input type="email" id="email" name="email" placeholder="Seu E-mail">
             <button type="submit">Inscreva-se Agora</button>
         </form>
-        
+
     </section>
 
-    <footer>
+    <footer id="contato">
         <div>
             <p>© 2024 Belleza Pura/Leonardo Bueno. Todos os direitos reservados.</p>
             <p>
-                <a href="#" target="_blank"
-                    style="color: #fff; margin-right: 10px;">Instagram</a>
-                <a href="#" target="_blank"
-                    style="color: #fff; margin-right: 10px;">Facebook</a>
+                <a href="#" target="_blank" style="color: #fff; margin-right: 10px;">Instagram</a>
+                <a href="#" target="_blank" style="color: #fff; margin-right: 10px;">Facebook</a>
                 <a href="https://wa.me/5514999020960" target="_blank" style="color: #fff;">Whatsapp</a>
             </p>
         </div>
     </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
