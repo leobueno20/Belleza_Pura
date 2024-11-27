@@ -24,7 +24,13 @@ header nav a {
 header img {
     width: 100px;
 }
-
+.texto-sobre {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+}
 .hero {
     color: #ffffff;
     text-align: center;
@@ -37,7 +43,7 @@ header img {
 }
 
 .hero h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
 }
 
@@ -48,7 +54,7 @@ header img {
     font-size: 1rem;
     border: none;
     border-radius: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
 
 }
@@ -60,26 +66,23 @@ header img {
 .produtos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 colunas de tamanhos iguais */
     gap: 20px;
-    /* Espaçamento entre os itens */
     padding: 50px 20px;
     background-color: #fff;
 }
 
 .produtos-itens {
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #ddff97;
+    border: 2px solid #86a94c;
     padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    /* Garante alinhamento vertical */
     align-items: center;
     justify-content: space-between;
-    /* Distribui o conteúdo */
-    height: 100%;
-    /* Ajuste automático do tamanho */
+    height: 90%;
 }
 
 .produtos-itens img {
@@ -92,9 +95,13 @@ header img {
 .produtos-itens button {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 28px;
+    margin-bottom: 10px;
     border: none;
     cursor: pointer;
+    
 }
 
 .produtos-itens button:hover {
