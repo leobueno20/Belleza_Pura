@@ -1,11 +1,11 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #a4a831;
 }
 
-header{
+header {
     padding: 15px;
     background-color: #333;
     display: flex;
@@ -14,31 +14,34 @@ header{
 
 }
 
-header nav a{
+header nav a {
     margin: 0 15px;
-    color: #AED3F2;
+    color: #ececec;
     font-weight: bolder;
     text-decoration: none;
 }
 
-.hero{
-    background: url('imagem-heroi.jpg') no-repeat center center/cover;
+header img {
+    width: 100px;
+}
+
+.hero {
     color: #ffffff;
     text-align: center;
     padding: 117px 20px;
 }
 
-.hero h1{
+.hero h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
 }
 
-.hero h3{
+.hero h3 {
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
 }
 
-.hero button{
+.hero button {
     padding: 10px 20px;
     color: white;
     background-color: #4CAF50;
@@ -46,34 +49,47 @@ header nav a{
     border: none;
     border-radius: 10px;
     font-family: 'Playfair Display', serif;
-    
+    cursor: pointer;
+
 }
 
-.hero button:hover{
+.hero button:hover {
     background-color: #45a049;
 }
 
-.products{
-    display: flex;
-    justify-content: space-around;
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 colunas de tamanhos iguais */
+    gap: 20px;
+    /* Espaçamento entre os itens */
     padding: 50px 20px;
     background-color: #fff;
 }
 
-.product-card{
-    width: 250px;
+.produtos-itens {
     text-align: center;
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    /* Garante alinhamento vertical */
+    align-items: center;
+    justify-content: space-between;
+    /* Distribui o conteúdo */
+    height: 100%;
+    /* Ajuste automático do tamanho */
 }
 
-.product-card img{
-    width: 100%;
+.produtos-itens img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
-.product-card button{
+.produtos-itens button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -81,24 +97,24 @@ header nav a{
     cursor: pointer;
 }
 
-.product-card button:hover{
+.produtos-itens button:hover {
     background-color: #45a049;
 }
 
 /* Formulário */
-.form-container{
+.form-container {
     padding: 50px;
     text-align: center;
     background-color: #f4f4f4d5;
 }
 
-.form-container input{
+.form-container input {
     padding: 10px;
     width: 300px;
     margin: 10px 0;
 }
 
-.form-container button{
+.form-container button {
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -106,8 +122,8 @@ header nav a{
     cursor: pointer;
 }
 
-/* Rodapé */
-footer{
+
+footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
