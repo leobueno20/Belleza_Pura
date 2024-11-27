@@ -178,6 +178,7 @@ footer {
 
 
 @media (max-width: 480px) {
+    
     header nav {
         flex-direction: column;
     }
@@ -188,6 +189,10 @@ footer {
 
     .produtos {
         grid-template-columns: 1fr;
+    }
+    .texto-sobre{
+        font-size: 13px;
+        padding: 7px 45px;
     }
 
     .produtos-itens img {
