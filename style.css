@@ -13,16 +13,22 @@ header {
     align-items: center;
 
 }
+header .titulo{
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #9f5e28, #ffdb69); /* Degradê aplicado */
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
 
 header nav a {
-    margin: 0 15px;
+    margin: 0 25px;
+    font-size: 25px;
     color: #ececec;
-    font-weight: bolder;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header img {
-    width: 100px;
+    width: 120px;
 }
 .texto-sobre {
     padding: 50px 80px;
@@ -38,8 +44,8 @@ header img {
 }
 
 .hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.2rem;
 }
 
 .hero h3 {
