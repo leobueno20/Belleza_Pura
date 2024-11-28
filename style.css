@@ -24,7 +24,9 @@ header .titulo {
 header nav a {
     margin: 0 25px;
     font-size: 25px;
-    color: #ececec;
+    background: linear-gradient(to right, #9f5e28, #ffdb69);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -147,7 +149,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
-    color: #fff;
+    color: #333;
 }
 
 /*ressponsividade*/
