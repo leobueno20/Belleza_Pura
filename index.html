@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belleza Pura - Cosméticos Sustentáveis</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/belleza.pura.png" type="image/x-icon">
 </head>
@@ -28,26 +25,32 @@
     <main class="hero">
         <h1>Descubra a Belleza Pura - Cosméticos Sustentáveis e Veganos</h1>
         <h3>Cuide de si e do planeta com nossa nova linha de produtos 100% naturais.</h3>
-        <button>Explore Agora</button>
+        <button id="botão-explorar">Explore Agora</button>
+
     </main>
 
     <section id="sobre" class="texto-sobre">
-        <h2>Sobre a <div class="belezza">Belleza Pura</div> </h2>
-        <p>A Belleza Pura é uma marca dedicada a oferecer cosméticos <span class="belezza" >100% veganos e sustentáveis.</span> Nossa missão é
+        <h2>Sobre a <div class="belezza">Belleza Pura</div>
+        </h2>
+        <p>A Belleza Pura é uma marca dedicada a oferecer cosméticos <span class="belezza">100% veganos e
+                sustentáveis.</span> Nossa missão é
             promover beleza e bem-estar enquanto respeitamos o meio ambiente. Todos os nossos produtos são livres de
             crueldade animal e embalados em materiais recicláveis. Acreditamos em um mundo mais consciente e saudável
             para todos.</p>
         <p>
             Trabalhamos para redefinir o conceito de autocuidado, priorizando ingredientes naturais e processos éticos
             que garantam
-            eficácia sem comprometer os recursos do planeta. Além disso,  <span class="belezza" >nos preocupamos com a inclusão e a diversidade</span>,
+            eficácia sem comprometer os recursos do planeta. Além disso, <span class="belezza">nos preocupamos com a
+                inclusão e a diversidade</span>,
             oferecendo
             produtos que atendem a diferentes tipos de pele e cabelo, sempre com foco em qualidade e inovação.
         </p>
         <p>
             Nosso compromisso vai além dos produtos: promovemos ações educacionais e parcerias com ONGs ambientais,
-            incentivando práticas de consumo responsável e ajudando a construir <span class="belezza" > uma sociedade mais sustentável.</span>
+            incentivando práticas de consumo responsável e ajudando a construir <span class="belezza"> uma sociedade
+                mais sustentável.</span>
         </p>
+        <p>Veja agora nossa nova linha de produtos <span class="belezza">100% naturais.</span></p>
     </section>
     <section id="produtos" class="produtos">
         <div class="produtos-itens">
@@ -109,10 +112,11 @@
     <section class="formulario">
         <h2>Fique por Dentro das Novidades!</h2>
         <p>Receba promoções exclusivas e informações sobre nossos produtos.</p>
-        <form>
+        <form id="verifica-formulario" novalidate>
             <input type="text" id="name" name="name" placeholder="Seu Nome">
             <input type="email" id="email" name="email" placeholder="Seu E-mail">
             <button type="submit">Inscreva-se Agora</button>
+            <p id="mensagem-formulario"></p>
         </form>
 
     </section>
@@ -121,9 +125,9 @@
         <div>
             <p>© 2024 Belleza Pura/Leonardo Bueno. Todos os direitos reservados.</p>
             <p>
-                <a href="#" target="_blank" style="color: #fff; margin-right: 10px;">Instagram</a>
-                <a href="#" target="_blank" style="color: #fff; margin-right: 10px;">Facebook</a>
-                <a href="https://wa.me/5514999020960" target="_blank" style="color: #fff;">Whatsapp</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="https://wa.me/5514999020960" target="_blank">Whatsapp</a>
             </p>
         </div>
     </footer>

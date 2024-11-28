@@ -1,9 +1,10 @@
 body {
-    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #718355;
 }
+
+/* menu navegação */
 
 header {
     padding: 15px;
@@ -19,6 +20,7 @@ header .titulo {
     background: linear-gradient(to right, #9f5e28, #ffdb69);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace
 }
 
 header nav a {
@@ -35,6 +37,8 @@ header img {
     width: 120px;
 }
 
+/* texto-sobre */
+
 .texto-sobre {
     padding: 50px 80px;
     text-align: center;
@@ -42,6 +46,13 @@ header img {
     font-family: 'Courier New', Courier, monospace;
     font-size: 21px;
 }
+
+.belezza {
+    color: #718355;
+    text-decoration: underline;
+}
+
+/* Hero(principal) */
 
 .hero {
     background-color: #718355;
@@ -75,14 +86,13 @@ header img {
 .hero button:hover {
     background-color: #181818;
 }
-.belezza{
-    color: #718355;
-}
+
+/* Produtos */
 
 .produtos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;  
+    gap: 20px;
     padding: 50px 20px;
     background-color: #fff;
 }
@@ -124,6 +134,20 @@ header img {
     background-color: #45a049;
 }
 
+/*Formulário*/
+#mensagem-formulario {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#mensagem-formulario.erro {
+    color: red;
+}
+
+#mensagem-formulario.successo {
+    color: green;
+}
+
 .formulario {
     padding: 50px;
     text-align: center;
@@ -144,12 +168,22 @@ header img {
     cursor: pointer;
 }
 
+.formulario button:hover {
+    background-color: #45a049;
+}
 
+/* rodapé */
 footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
-    color: #333;
+    color: white;
+}
+
+footer p a {
+    text-decoration: underline;
+    color: white;
+    margin-right: 10px;
 }
 
 /*ressponsividade*/
