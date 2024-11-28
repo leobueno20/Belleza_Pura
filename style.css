@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #a4a831;
+    background-color: #718355;
 }
 
 header {
@@ -87,8 +87,8 @@ header img {
 
 .produtos-itens {
     text-align: center;
-    background-color: #ddff97;
-    border: 2px solid #86a94c;
+    background-color: #b5c99a;
+    border: 2px solid #97a97c;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 8px;
